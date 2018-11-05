@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Mt3620Blink1",
+  "ComponentId": "db9429ad-39a3-4a61-b53b-78b5f7a57dc6",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "TargetApplicationRuntimeVersion": 1,
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "inthehandiot.azure-devices.net" ],
+    "Gpio": [ 0, 8, 9, 10, 15, 16, 17, 18, 19, 20, 12 ],
+    "Uart": [],
+    "WifiConfig": false,
+    "DeviceAuthentication": "7c580a32-0430-49e4-9187-9953236000c6"
+  }
+}
